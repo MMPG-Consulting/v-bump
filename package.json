@@ -21,8 +21,5 @@
   "homepage": "https://github.com/MMPG-Consulting/v-bump#readme",
   "bin": {
     "v-bump": "bin/index.sh"
-  },
-  "dependencies": {
-    "@mmpg-soft/v-bump": "0.0.2"
   }
 }
