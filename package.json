@@ -1,7 +1,7 @@
 {
   "name": "@mmpg-soft/v-bump",
   "description": "A simple utility that bumps the version of your package according to the last commit message.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "M. Gross <mg@mmpg.xyz> (https://mmpg.xyz)",
   "main": "index.js",
   "scripts": {
