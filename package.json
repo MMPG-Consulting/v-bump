@@ -1,22 +1,23 @@
 {
-  "name": "@food7go/bumpme",
+  "name": "@mmpg-soft/v-bump",
   "description": "A simple utility that bumps the version of your package according to the last commit message.",
-  "version": "0.0.2",
-  "author": "M. Gross <mg@fgood7go.com> (https://food7go.com)",
+  "version": "0.0.1",
+  "author": "M. Gross <mg@mmpg.xyz> (https://mmpg.xyz)",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Food7Go/versionbumper.git"
+    "url": "git+https://github.com/MMPG-Consulting/v-bump.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Food7Go/versionbumper/issues"
+    "url": "https://github.com/MMPG-Consulting/v-bump/issues"
   },
-  "homepage": "https://github.com/Food7Go/versionbumper#readme",
+  "homepage": "https://github.com/MMPG-Consulting/v-bump#readme",
   "bin": {
-    "bumpme": "bin/index.sh"
+    "v-bump": "bin/index.sh"
   }
 }
