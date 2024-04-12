@@ -1,15 +1,14 @@
 {
   "name": "@mmpg-soft/v-bump",
   "description": "A simple utility that bumps the version of your package according to the last commit message.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "M. Gross <mg@mmpg.xyz> (https://mmpg.xyz)",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "publish": "npm publish --access public",
-    "patch:publish": "v-bump -s patch && npm run publish",
-    "minor:publish": "v-bump -s minor && npm run publish",
-    "major:publish": "v-bump -s major && npm run publish"
+    "patch:publish": "v-bump -s patch -i 1 && npm publish --access public",
+    "minor:publish": "v-bump -s minor -i 1 && npm publish --access public",
+    "major:publish": "v-bump -s major -i 1 && npm publish --access public"
   },
   "repository": {
     "type": "git",
