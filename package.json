@@ -24,6 +24,6 @@
     "v-bump": "bin/index.sh"
   },
   "dependencies": {
-    "@mmpg-soft/v-bump": "^0.0.1"
+    "@mmpg-soft/v-bump": "0.0.2"
   }
 }
